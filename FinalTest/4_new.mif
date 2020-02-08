@@ -1,0 +1,23 @@
+DEPTH = 16;           % Memory depth and width are required %
+WIDTH = 32;           % Enter a decimal number %
+ADDRESS_RADIX = HEX;  % Address and value radixes are optional %
+DATA_RADIX = HEX;     % Enter BIN, DEC, HEX, or OCT; unless %
+                      % otherwise specified, radixes = HEX %
+CONTENT
+BEGIN
+[0..F] : 00000000;   % Range--Every address from 0 to 1F = 00000000 %
+
+0 : 20020080;        % (00)       addi $2, $0, 0x80 #          %
+1 : 20030084;        % (04)       addi $3, $0, 0x84 #          %
+2 : 20010088;        % (08)       addi $1, $0, 0x88 #          %
+3 : 200400c0;        % (0c)       addi $4, $0, 0xc0 #    192      %
+4 : 200500c4;        % (10)       addi $5, $0, 0xc4 #    196      %
+5 : 20060088;        % (14)       addi $6, $0, 0x88 # 10001000 %
+7 : 8c870000;        % (1c)       lw $7, 0($4)      #    $7=MEM[192]      %
+8 : 8ca80000;        % (20)       lw $8, 0($5)      #    $8=MEM[196]      %
+9 : 00084940;        % (24)       sll $9, $8, 5     #    $8 shift left 5 for the highest 5 bits      %
+A : 01275025;        % (28)       or $10, $9, $7    #          %
+B : 01465818;        % (2c)       hads $11, $10, $6  #    $11 is the answer and output to MEM[132]      %
+C : ac2b0000;        % (30)       sw $11, 0($1)     #          %
+D : 08000006;        % (34)       j loop            #          %
+END ;	
