@@ -1,0 +1,169 @@
+C:/Users/lenovo/Desktop/pipeline/sevenseg.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/sevenseg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sevenseg
+
+Top level modules:
+	sevenseg
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/ram.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/ram.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipepc.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipepc.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipepc
+
+Top level modules:
+	pipepc
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipeir.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipeir.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipeir
+
+Top level modules:
+	pipeir
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/mux2x5.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/mux2x5.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2x5
+
+Top level modules:
+	mux2x5
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/mux2x32.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/mux2x32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2x32
+
+Top level modules:
+	mux2x32
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/mux4x32.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/mux4x32.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux4x32
+
+Top level modules:
+	mux4x32
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipeid.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipeid.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipeid
+
+Top level modules:
+	pipeid
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipeif.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipeif.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipeif
+
+Top level modules:
+	pipeif
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/io_output_reg.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/io_output_reg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module io_output_reg
+
+Top level modules:
+	io_output_reg
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipeemreg.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipeemreg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipeemreg
+
+Top level modules:
+	pipeemreg
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipesim.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipesim.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipecomputer_sim
+
+Top level modules:
+	pipecomputer_sim
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipeexe.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipeexe.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipeexe
+
+Top level modules:
+	pipeexe
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/io_input_mux.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/io_input_mux.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module io_input_mux
+
+Top level modules:
+	io_input_mux
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipelined_computer.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipelined_computer.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipelined_computer
+
+Top level modules:
+	pipelined_computer
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipemwreg.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipemwreg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipemwreg
+
+Top level modules:
+	pipemwreg
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/alu.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/alu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/sc_instmem.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/sc_instmem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module sc_instmem
+
+Top level modules:
+	sc_instmem
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/io_input_reg.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/io_input_reg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module io_input_reg
+
+Top level modules:
+	io_input_reg
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipedereg.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipedereg.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipedereg
+
+Top level modules:
+	pipedereg
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipemem.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipemem.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipemem
+
+Top level modules:
+	pipemem
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/pipecu.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/pipecu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module pipecu
+
+Top level modules:
+	pipecu
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/regfile.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/regfile.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Users/lenovo/Desktop/pipeline/rom.v {1 {vlog -work work C:/Users/lenovo/Desktop/pipeline/rom.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}}
